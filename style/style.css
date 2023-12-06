@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow&display=swap');
+
+body {
+    font-family: 'Barlow', sans-serif;
+    color: #fff;
+    background-color: #000;
+}
+
+header, footer {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+header img, footer img{
+    width: 100px;
+    height: auto;
+}
+
+header ul, footer ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+
+ul li {
+    padding: 10px;
+}
+
+li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+li a:hover {
+    border-bottom: 1.2px solid #fff;
+}
+
+#logo {
+    display: flex;
+    align-items: center;
+    padding: 7.5px;
+}
+
+#logo h1 {
+    padding: 7.5px;
+}
