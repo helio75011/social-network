@@ -40,7 +40,8 @@ try {
     <h1>Profil de l'Utilisateur</h1>
     <p>Nom d'utilisateur: <?php echo htmlspecialchars($user['username']); ?></p>
     <p>Email: <?php echo htmlspecialchars($user['email']); ?></p>
-    
+
+    <a href="index.php">Accueil</a>
     <form method="post" action="update_profile.php">
         <h2>Modifier le Profil</h2>
         <label for="username">Nom d'utilisateur:</label>
